@@ -247,7 +247,7 @@ nav{
     font-optical-sizing: 15rem;
 }
 .hero-btn:hover{
-    letter-spacing: .25rem;
+    letter-spacing: .20rem;
 }
 .main-btn{
     position: relative;
@@ -417,11 +417,19 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background: blanchedalmond;
+}
+.course-content{
+    margin-right: 8rem;
 }
 .course-wrapper .main-btn{
     margin-top: 4rem;
+}
+.course-img{
+    position: relative;
+    width: 200px;
+    height: auto;
 }
 
 
@@ -802,6 +810,11 @@ footer{
         margin: .75rem auto;
         flex: unset;
         width: 100%;
+    }
+
+
+    .course-content{
+        margin-right: 0;
     }
 
     
